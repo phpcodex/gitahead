@@ -1,0 +1,22 @@
+{
+    "name": "phpcodex/gitahead",
+    "description": "Obtain Git references from your HEAD",
+    "keywords": ["php", "git", "version control"],
+    "type": "project",
+    "require": {
+	"php": ">=5.6",
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpcodex\\Gitahead\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
